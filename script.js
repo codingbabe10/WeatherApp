@@ -11,6 +11,8 @@ body.style.color = 'white'
 
 
 // Function to get weather information
+
+// Function to get weather information
 async function getWeather() {
     const cityInput = document.getElementById("cityInput").value;
 
@@ -50,4 +52,3 @@ async function getWeather() {
         alert("Error fetching weather data. Please try again later.");
     }
 }
-
