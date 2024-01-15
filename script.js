@@ -1,6 +1,10 @@
 console.log('padawans')
+const body = document.body
 
 
+
+body.style.backgroundColor = 'black'
+body.style.color = 'white'
 
 
 
